@@ -32,6 +32,14 @@ ul {
     border: 2px solid #555555;
     padding: 10px 24px;
 }
+.btn:disabled{
+    font-size: 16px;
+    background-color: #ccc;
+    color: black;
+    border: 2px solid #555555;
+    padding: 10px 24px;
+    cursor: not-allowed;
+}
 input[type=text] {
   width: 100%;
   padding: 12px 20px;
